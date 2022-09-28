@@ -1,0 +1,38 @@
+[
+  {
+    "img": "https://unsplash.com/photos/P4AIjQw1BuY",
+    "name": "Push Up",
+    "age": "25-30",
+    "time": "30sec"
+  },
+  {
+    "img": "https://unsplash.com/photos/c59hEeerAaI",
+    "name": "Run",
+    "age": "25-30",
+    "time": "30sec"
+  },
+  {
+    "img": "https://unsplash.com/photos/Vz0RbclzG_w",
+    "name": "Seat Work",
+    "age": "25-30",
+    "time": "30sec"
+  },
+  {
+    "img": "https://unsplash.com/photos/gJtDg6WfMlQ",
+    "name": "Leg Exercise",
+    "age": "25-30",
+    "time": "30sec"
+  },
+  {
+    "img": "https://unsplash.com/photos/FP7cfYPPUKM",
+    "name": "Dumbbell Lifting",
+    "age": "25-30",
+    "time": "30sec"
+  },
+  {
+    "img": "https://unsplash.com/photos/y7ywDXWJ-JU",
+    "name": "Treadmill Exercise",
+    "age": "25-30",
+    "time": "30sec"
+  }
+]
