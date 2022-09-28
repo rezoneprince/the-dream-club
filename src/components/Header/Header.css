@@ -1,10 +1,11 @@
 .logo {
     display: flex;
-    margin-top: 40px;
+    padding-top: 40px;
     padding-left: 140px;
+
 }
 
-.logo h3 {
+.logo h1 {
     font-size: 25px;
     color: #CD090B;
 

@@ -1,0 +1,18 @@
+.club-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.exercise-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-right: 60px;
+    padding-left: 160px;
+}
+
+.cart-container {
+    background-color: rgba(221, 219, 219, 0.507);
+    height: 100vh;
+
+
+}
