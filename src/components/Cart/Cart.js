@@ -16,7 +16,7 @@ const Cart = ({ cart, exerciseTime }) => {
               </div>
             <div>
                 <h4>Md Rezone Ahamed</h4>
-                <p>👍Meherpur, Bangladesh</p>
+                <p>👉Meherpur,Bangladesh</p>
             </div>
                
         </div>
