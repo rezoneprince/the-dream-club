@@ -1,15 +1,15 @@
-// Use Local Storage to manage cart data
+
 const addToLocalStorage = (id) => {
   let shoppingCart = {};
 
-  // get the shopping cart
+  
 
   const storedCart = localStorage.getItem("gymnastic");
   if (storedCart) {
     shoppingCart = JSON.parse(storedCart);
   }
 
-  // add quantity
+
   const quantity = shoppingCart[id];
   if (quantity) {
     shoppingCart[id] = quantity + 1;
@@ -21,7 +21,7 @@ const addToLocalStorage = (id) => {
 
 const getStoredCart = () => {
   let shoppingCart = {};
-  // get the shopping cart
+ 
   const storedCart = localStorage.getItem("gymnastic");
   if (storedCart) {
     shoppingCart = JSON.parse(storedCart);
@@ -30,7 +30,7 @@ const getStoredCart = () => {
 };
 
 const removeFromLocalStorage = (id) => {
-  // console.log("remove", id);
+
   const storedCart = localStorage.getItem("gymnastic");
   const shoppingCart = JSON.parse(storedCart);
   if (storedCart) {
