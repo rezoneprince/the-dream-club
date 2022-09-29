@@ -38,11 +38,22 @@
 }
 
 .addBreak .add-break-btn button {
+    border: none;
+    background-color: #fff;
+    font-weight: bold;
     margin-left: 10px;
     padding: 8px;
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    transition: 0.2s;
+
+}
+
+.add-break-btn button:hover {
+    color: #fff;
+    background-color: #ca0508;
+    cursor: pointer;
 
 }
 
@@ -50,6 +61,45 @@
     margin-left: 30px;
 }
 
+.exercise-details-time p {
+    font-size: 18px;
+}
+
+.exercise-details-time .exercise-time,
+.break-time {
+    background-color: rgb(228, 224, 224);
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.activity-btn {
+    margin-left: 30px;
+
+}
+
+.activity-btn button {
+    border: none;
+    background-color: #C8060C;
+    color: #fff;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.activity-btn button:hover {
+    cursor: pointer;
+}
+
+.active-pop {
+    margin-left: 10px;
+}
+
+.displayBlock {
+    display: block;
+}
+
+.displayNone {
+    display: none;
+}
 
 @media only screen and (min-width: 200px) and (max-width: 767px) {
     .cart-container {

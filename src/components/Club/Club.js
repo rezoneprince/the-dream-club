@@ -57,7 +57,9 @@ const Club = () => {
 
       <div className="cart-container">
         <Cart cart={cart} exerciseTime={exerciseTime}></Cart>
-      </div>
+          </div>
+          
+          
 
     </div>
   );

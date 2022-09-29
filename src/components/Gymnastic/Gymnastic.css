@@ -23,7 +23,7 @@
     border: none;
     border-radius: 0 0 10px 10px;
     text-align: center;
-    background-color: #CD090B;
+    background-color: #CA0508;
     color: #fff;
     font-size: 16px;
     position: absolute;
@@ -33,6 +33,6 @@
 }
 
 .btn-cart:hover {
-    background-color: rgb(25, 189, 25);
+    background-color: #8e0709;
     cursor: pointer;
 }

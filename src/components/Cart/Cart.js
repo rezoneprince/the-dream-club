@@ -4,19 +4,22 @@ import "./Cart.css";
 
 const Cart = ({ cart, exerciseTime }) => {
   const [breakTime, setBreakTime] = useState(0);
-
+    const [btn, activityButton] = useState(false);
+    if (btn) {
+        setTimeout(()=>{activityButton(false)}, 2000)
+    }
   return (
     <div>
-      <div className="cart-men-details">
-        <div>
-          <img src={Images} alt="" />
-        </div>
+        <div className="cart-men-details">
+            <div>
+                <img src={Images} alt="" />
+              </div>
             <div>
                 <h4>Md Rezone Ahamed</h4>
                 <p>👍Meherpur, Bangladesh</p>
             </div>
                
-          </div>
+        </div>
           
           <div className='me-details'>
                         <div>
@@ -47,15 +50,23 @@ const Cart = ({ cart, exerciseTime }) => {
       </div>
       <div className="exercise-details">
         <h2>Exercise Details {cart.length}</h2>
-        <div className="exercise-details-time">
-          <p>
-            Exercise Time <span>{exerciseTime}s</span>
-          </p>
-          <p>
-            Break Time <span>{breakTime}s</span>
-          </p>
+            <div className="exercise-details-time">
+                <p className="exercise-time">
+                    Exercise Time <span>{exerciseTime} seconds</span>
+                </p>
+                <p className="break-time">
+                    Break Time <span>{breakTime} seconds</span>
+                </p>
+            </div>
         </div>
-      </div>
+          
+           <div className={btn? "displayBlock":"displayNone"}>
+                  <h1 className="active-pop">Activity Complete</h1>
+          </div>
+          
+          <div className="activity-btn">
+              <button onClick={()=> activityButton(true)}><p>Activity Completed</p></button>
+          </div>
     </div>
   );
 };
