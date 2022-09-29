@@ -1,5 +1,5 @@
 .cart-container {
-
+    margin-top: 30px;
     background-color: rgba(221, 219, 219, 0.507);
 }
 
@@ -34,6 +34,7 @@
 
 .addBreak {
     margin-left: 30px;
+    margin-right: 20px;
 }
 
 .addBreak .add-break-btn button {
@@ -54,6 +55,7 @@
     .cart-container {
         flex-direction: column-reverse;
         align-items: center;
+        margin-left: 80px;
     }
 
 }
