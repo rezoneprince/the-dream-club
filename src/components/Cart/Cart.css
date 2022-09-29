@@ -1,0 +1,11 @@
+.me-details {
+    display: flex;
+}
+
+.me-details h2 {
+    margin-left: 30px;
+}
+
+.me-details p {
+    padding-left: 40px;
+}
