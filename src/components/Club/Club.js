@@ -40,8 +40,6 @@ const Club = () => {
     addToLocalStorage(gymnastic.id);
   };
 
-  console.log(cart)
-;
 
   return (
     <div className="club-container">
