@@ -91,6 +91,10 @@
 
 .active-pop {
     margin-left: 10px;
+    background-color: rgb(182, 178, 178);
+    padding: 5px;
+    border-radius: 10px;
+
 }
 
 .displayBlock {
