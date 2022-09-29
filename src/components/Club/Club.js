@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Gymnastic from '../Gymnastic/Gymnastic';
 import './Club.css';
 
 const Club = () => {
@@ -11,9 +12,12 @@ const Club = () => {
     return (
         <div className="club-container">
             <div className="exercise-container">
-                <div>
-                    <h3>Exercise container ok: {gymnastics.length}</h3>
-                </div>
+               
+                {
+                    gymnastics.map(gymnastic => <Gymnastic
+                        key={gymnastic.time} gymnastic={gymnastic}>
+                    </Gymnastic>)
+                }
             </div> 
             
             <div className="cart-container">

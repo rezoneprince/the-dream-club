@@ -4,10 +4,12 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <div className='logo'>
+        <div>
+             <div className='logo'>
             <img src={Images} alt="" />
             <h1>The Dream Club</h1>
         </div>
+       </div>
     );
 };
 
