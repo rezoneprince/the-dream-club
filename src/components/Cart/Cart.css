@@ -1,3 +1,25 @@
+.cart-container {
+
+    background-color: rgba(221, 219, 219, 0.507);
+}
+
+.cart-container .cart-men-details {
+    display: flex;
+}
+
+.cart-container .cart-men-details img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 20px 20px;
+
+}
+
+.cart-container .cart-men-details h4 {
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
 .me-details {
     display: flex;
 }
@@ -8,4 +30,48 @@
 
 .me-details p {
     padding-left: 40px;
+}
+
+.addBreak {
+    margin-left: 30px;
+}
+
+.addBreak .add-break-btn button {
+    margin-left: 10px;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+.exercise-details {
+    margin-left: 30px;
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+    .cart-container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .cart-container {
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
+
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    .cart-container {
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
+
 }
